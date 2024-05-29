@@ -1,1 +1,70 @@
-# kfyswebsite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Fanyi Kong</h1>
+        <p>Automatic Speech Recognition Algorithm Engineer | Tech Enthusiast</p>
+    </header>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="WechatIMG801.jpeg" alt="Fanyi Kong">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:Kong.fa@northeastern.edu">Kong.fa@northeastern.edu</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/fanyi-kong" target="_blank">Fanyi Kong</a></p>
+                <p><i class="fas fa-file"></i> <a href="path_to_cv.pdf" target="_blank">CV</a></p>
+            </div>
+            <div class="about-text">
+                <p>My research and academic journey began during my undergraduate program, where I focused on occupational health and safety, deeply exploring hazard prevention through human behavior analysis. I led a project named 'Optimization Project of Enterprise Occupational Disease,' using the Statistical Analysis System to analyze and predict companies' behaviors, and making policy recommendations. This project earned funding from the Beijing University Students’ Scientific Research and Entrepreneurial Project. My early interest in human factors seamlessly transitioned into my graduate studies in Boston, where my research has consistently focused on the intersection of human behavior prediction and Machine Learning applications.</p>
+                <p>After graduating, I began my career as an Algorithm Engineer at Nanjing Fiberhome Technology Co., Ltd., where I spearheaded projects in speech recognition technology. I am a highly motivated researcher, with my work primarily focusing on enhancing algorithmic designs and optimization processes. I was part of the team that achieved second place in the '2021 China Hualu Cup Data Lake Algorithm Competition' with our project 'Multi-channel Speech Recognition.' Additionally, I assist my teammates on projects related to Computer Vision. Besides my technical responsibilities, I also take charge of collecting and managing comprehensive project resources, ensuring our team has robust materials to support our research and development efforts. Due to my company's strict confidentiality agreements, all my coding activities are carried out exclusively on the internal network. Our policy stipulates that any developed code cannot be shared publicly for three years after my departure. As a result, I am unable to showcase my work on GitHub or any other public platform. Sorry for the inconvenience.</p>
+            </div>
+        </div>
+    </section>
+    <section id="publications">
+        <h2>Journal Publications</h2>
+        <ul>
+            <li><span class="icon">★</span>
+                <strong>Active Learning: Encoder-Decoder-Outlayer & Vector Space Diversification Sampling,</strong> Co-first Author, 2023, <em>Mathematics</em>, MDPI4353, Mathematics 2023, 11(13), 2819; <a href="https://doi.org/10.3390/math11132819" target="_blank">https://doi.org/10.3390/math11132819</a>
+            </li>
+            <li><span class="icon">★</span>
+                <strong>Predicting Drug-Drug Interactions using Heterogeneous Graph Neural Networks: HGNN-DDI,</strong> Co-first Author, Accepted, The 4th International Conference on Signal Processing and Machine Learning
+            </li>
+        </ul>
+    </section>
+    <div class="main-content">
+        <div class="left-content">
+            <section id="research">
+                <h2>Research Interests</h2>
+                <ul>
+                    <li>Artificial Intelligence, including Neural Networks, Deep Learning, and Machine Learning</li>
+                    <li>Human-Computer Interaction (HCI) with a focus on AI-driven technologies, encompassing Intelligent User Interfaces, Accessibility Technologies, Affective Computing, and Interactive Machine Learning</li>
+                    <li>Automatic Speech Recognition</li>
+                    <li>Computational Biology and Healthcare</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-content">
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <strong>Northeastern University, Boston, MA</strong> <span class="date">(Sep 2018 - May 2020)</span><br>
+                    Masters of Science: Industrial Engineering (Healthcare Focus)<br> 
+                    Core Courses: Data Mining, Deep Learning, Computation and Visualization
+                </div>
+                <br>
+                <div class="education-item">
+                    <strong>China University of Labor Relations, Beijing, China</strong> <span class="date">(Sep 2012 - June 2016)</span><br>
+                    Bachelor of Engineering: Safety Engineering (Occupational Health Focus)<br>
+                    Awarded Scholarship (5%); Merit Student (3%); Led Robot Training Group: Third award in “The Fifth Tsinghua University Undergraduate Engineering Training Competition”; Led project funded by Beijing University Students' Scientific Research and Entrepreneurial Project
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
