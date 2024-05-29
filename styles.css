@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+#about {
+    padding: 2rem;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1400px;  /* Increase the max-width to allow more text per line */
+}
+
+.about-image {
+    text-align: left;
+    margin-right: 2rem;
+}
+
+.about-image img {
+    max-width: 200px; /* Adjust the width as needed */
+    height: auto;    /* Keep the aspect ratio */
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.about-image p {
+    margin: 0.2rem 0;  /* Reduce space between email and LinkedIn */
+}
+
+.about-text {
+    flex: 1; /* Allow the text to take up available space */
+    max-width: 1000px; /* Increase the width of the text container */
+}
+
+.about-text p {
+    margin-bottom: 0.5rem; /* Adjust the space between paragraphs */
+}
+
+#publications {
+    padding: 1rem 2rem; /* Reduce padding to decrease space */
+    font-size: 0.9rem; /* Reduce font size */
+}
+
+#publications ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+#publications ul li {
+    display: flex;
+    align-items: center;
+}
+
+#publications ul li .icon {
+    margin-right: 0.5rem;
+}
+
+.main-content {
+    display: flex;
+    padding: 2rem;
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 2rem; /* Space between the left and right content */
+}
+
+.right-content {
+    flex: 1;
+}
+
+#research, #education {
+    padding: 1rem 0;
+    border: none;
+    background-color: transparent;
+}
+
+#research ul {
+    list-style: disc; /* Use disc as the list style */
+    padding-left: 20px; /* Indent the list */
+}
+
+#research ul li {
+    margin-bottom: 0.5rem; /* Adjust the spacing between list items */
+}
+
+#education .education-item {
+    margin-bottom: 1.5rem; /* Space between education items */
+}
+
+#education .date {
+    font-style: italic;
+    color: #555;
+}
+
